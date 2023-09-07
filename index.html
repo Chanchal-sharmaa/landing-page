@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pepsi Website Landing Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class="sec">
+        <header>
+            <a href="a"><img src="logo.png" class="logo"></a>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Products</a></li>
+                <li><a href="#">What's New</a></li>
+                <li><a href="#">Newsletter</a></li>
+                <li><a href="#">Contact</a></li>
+
+
+
+
+            </ul>
+        </header>
+        <div class="content">
+            <div class="textbox">
+                <h2>That's What <br><span>I LIKE </span></h2>
+                <p>The Coca-Cola Co. is actively involved in philanthropic endeavors, a compelling reason to make it your soft drink of choice. In June 2011, the company announced that it gave $200,000 to the World Islamic Economic Forum Foundation to help empower women economically. Weigh the health and nutritional benefits of drinking Coke before popping open the can, especially if you're watching your weight. The American Heart Association recommends that women get no more than 100 calories daily from added sugar. Men should limit added sugar calories to no more than 150 calories.</p>
+                <a href="#">View All Products</a>
+            </div>
+            <div class="imgbox">
+                <img src="pepsi001.png" class="pepsi">
+            </div>
+        </div>
+        <ul class="thumb">
+            <li><img src="pepsi001.png" onclick="imgslider('pepsi001')"></li>
+            <li><img src="pepsi002.png"onclick="imgslider('pepsi002')" ></li>
+            <li><img src="pepsi003.png" onclick="imgslider('pepsi003')"></li>
+
+
+        </ul>
+        <ul class="sci">
+            <li><a href="a"><img src="facebook.png"></a></li>
+            <li><a href="a"><img src="instagram.png"></a></li>
+            <li><a href="a"><img src="twitter.png"></a></li>
+
+
+        </ul>
+
+    </section>
+    <script type="text/javascript">
+        function imgslider(anything){
+            document.querySelector('.pepsi').src = anything
+        }
+    </script>
+    
+
+    </header>
+    
+</body>
+</html>

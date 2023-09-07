@@ -1,0 +1,11 @@
+{
+    "configurations": [
+    {
+        
+        "request": "launch",
+        "type": "chrome",
+        "file": "C:/Users/mayan/Desktop/landing%20page/index.html",
+        "name": "open index.html"
+    }
+    ]
+}
